@@ -24,7 +24,7 @@ def predict():
         return render_template('index.html', prediction_text='Sorry, Your Loan Application is getting Rejected by Lending Club.')
     else:
         output = "Yes"
-        return render_template('index.html', prediction_text='Congradulations, Lending Club is accepting your loan application.')
+        return render_template('index.html', prediction_text='Congratulations, Lending Club is accepting your loan application.')
 
 
 if __name__ == "__main__":
